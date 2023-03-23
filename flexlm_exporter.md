@@ -40,4 +40,28 @@ go: downloading golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c
 go: downloading github.com/jpillora/backoff v1.0.0
 [monadmin@den-grafana-01]~/MySoftwares/golang/go>
 ```
+check the bin -
+```
+[monadmin@den-grafana-01]~/MySoftwares/golang/go> ls ~/go/bin/
+flexlm_exporter
+```
+
+check the 
+```
+[monadmin@den-grafana-01]~/MySoftwares/golang/go> ls ~/go/pkg/mod/
+cache  github.com  golang.org  google.golang.org  gopkg.in
+[monadmin@den-grafana-01]~/MySoftwares/golang/go> ls ~/go/pkg/mod/g
+github.com/        golang.org/        google.golang.org/ gopkg.in/
+[monadmin@den-grafana-01]~/MySoftwares/golang/go> ls ~/go/pkg/mod/github.com/
+alecthomas  beorn7  cespare  go-kit  golang  go-logfmt  jpillora  matttproud  mjtrangoni  mwitkow  pkg  prometheus
+[monadmin@den-grafana-01]~/MySoftwares/golang/go> ls ~/go/pkg/mod/github.com/mjtrangoni
+flexlm_exporter@v0.0.8
+[monadmin@den-grafana-01]~/MySoftwares/golang/go> ls ~/go/pkg/mod/github.com/mjtrangoni/flexlm_exporter@v0.0.8/
+CHANGELOG.md        config           flexlm_exporter.go  ISSUE_TEMPLATE.md  Makefile
+CODE_OF_CONDUCT.md  CONTRIBUTING.md  go.mod              LICENSE            NOTICE
+collector           Dockerfile       go.sum              MAINTAINERS.md     README.md
+[monadmin@den-grafana-01]~/MySoftwares/golang/go>
+```
+
+
 
