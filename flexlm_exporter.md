@@ -63,5 +63,17 @@ collector           Dockerfile       go.sum              MAINTAINERS.md     READ
 [monadmin@den-grafana-01]~/MySoftwares/golang/go>
 ```
 
+```
+]~/MySoftwares/golang/go> cd ~/go/pkg/mod/github.com/mjtrangoni/flexlm_exporter@v0.0.8/
+]~/go/pkg/mod/github.com/mjtrangoni/flexlm_exporter@v0.0.8> export PATH=/MySoftwares/golang/go/bin:$PATH
+```
+run `make`
+```
+[monadmin@den-grafana-01]~/go/pkg/mod/github.com/mjtrangoni/flexlm_exporter@v0.0.8>make
+>> Cleaning up
+>> formatting code
+>> vetting code
+```
+
 
 
